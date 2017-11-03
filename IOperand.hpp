@@ -13,7 +13,6 @@ enum eOperandType {
 };
 
 class IOperand {
-
 public:
 	virtual int getPrecision() const = 0; // Precision of the type of the instance
 	virtual eOperandType getType() const = 0; // Type of the instance
