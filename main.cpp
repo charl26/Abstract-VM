@@ -21,13 +21,15 @@ void storeInput(std::string &input) {
 	std::replace(input.begin(), input.end(), ')', ' ');
 	std::istringstream stream(input);
 	while (std::getline(stream, temp, ' ')) {
-		std::cout << temp << std::endl;
+		//	std::cout << temp << std::endl;
 		tokens.push_back(temp);
 	}
 	dataList data;
 	data.command = tokens[0];
-	data.type = tokens[1];
-	data.value = tokens[2];
+	if (!tokens[1].empty())
+		data.type = tokens[1];
+	if (!tokens[2].empty())
+		data.value = tokens[2];
 	commandList.emplace_back(data);
 }
 
@@ -49,7 +51,7 @@ void processCommands() {
 	for (auto &obj : commandList) {
 		if (obj.command == "push") {
 			eOperandType type = getType(obj);
-			operandFactory.createOperand(type, obj.value);
+			stack->push(const_cast<IOperand *>(operandFactory.createOperand(type, obj.value)));
 		} else if (obj.command == "assert") {
 			eOperandType type = getType(obj);
 			stack->assert(type, obj.value);
@@ -73,17 +75,21 @@ void processCommands() {
 			stack->print();
 		else if (obj.command == "exit")
 			stack->exit();
+		else if (obj.command == ";;")
+			stack->exit();
 		else {
-			std::cout << "ERROR: Command not found." << std::endl;
+			std::cout << "ERROR: " << obj.command << " Command not found." << std::endl;
 			_Exit(EXIT_FAILURE);
 		}
+	}
+	for (auto &obj : stack->getStack()) {
+		std::cout << obj << std::endl;
 	}
 }
 
 
 void readData(std::istream &input) {
 	std::string readData;
-
 	while (!input.eof()) {
 		if (readData.find(";;") == std::string::npos) {
 			std::getline(input, readData, '\n');
@@ -91,8 +97,8 @@ void readData(std::istream &input) {
 		} else {
 			processCommands();
 		}
-		std::getline(input, readData, '\n');
-		storeInput(readData);
+		//	std::getline(input, readData, '\n');
+		//storeInput(readData);
 	}
 }
 
