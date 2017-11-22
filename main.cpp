@@ -5,7 +5,7 @@
 #include "OperandFactory.hpp"
 #include "VmStack.hpp"
 
-struct  dataList{
+struct dataList {
 	std::string command;
 	std::string type;
 	std::string value;
@@ -31,11 +31,52 @@ void storeInput(std::string &input) {
 	commandList.emplace_back(data);
 }
 
+eOperandType getType(const dataList &obj) {
+	eOperandType type = DOUBLE;
+	if (obj.type == "int8")
+		type = INT8;
+	if (obj.type == "int16")
+		type = INT16;
+	if (obj.type == "int32")
+		type = INT32;
+	if (obj.type == "float")
+		type = FLOAT;
+	return type;
+}
+
 void processCommands() {
+	OperandFactory operandFactory;
 	for (auto &obj : commandList) {
-		std::cout << "This is the command ->" << obj.command << std::endl;
-		std::cout << "This is the type ->" << obj.type << std::endl;
-		std::cout << "This is the value ->" << obj.command << std::endl;
+		if (obj.command == "push") {
+			eOperandType type = getType(obj);
+			operandFactory.createOperand(type, obj.value);
+		} else if (obj.command == "assert") {
+			eOperandType type = getType(obj);
+			stack->assert(type, obj.value);
+		} else if (obj.command == "dump")
+			stack->dump();
+		else if (obj.command == "pop")
+			stack->pop();
+		else if (obj.command == "add")
+			stack->add();
+		else if (obj.command == "sub")
+			stack->sub();
+		else if (obj.command == "mul")
+			stack->mul();
+		else if (obj.command == "div")
+			stack->div();
+		else if (obj.command == "mod")
+			stack->mod();
+		else if (obj.command == "mod")
+			stack->mod();
+		else if (obj.command == "print")
+			stack->print();
+		else if (obj.command == "exit")
+			stack->exit();
+		else {
+			std::cout << "ERROR: Command not found." << std::endl;
+			_Exit(EXIT_FAILURE);
+		}
 	}
 }
 
