@@ -1,16 +1,19 @@
 //
-// Created by Charl THERON on 2017/11/17.
+// Created by Charl THERON on 2017/11/21.
 //
 
-#ifndef INT32OPERAND_HPP
-#define INT32OPERAND_HPP
+#ifndef OPERAND_HPP
+#define OPERAND_HPP
 
 
 #include "IOperand.hpp"
 
-class INT32Operand : public virtual IOperand {
+class Operand : public virtual IOperand{
+private:
+	eOperandType type;
+	std::string stringValue;
 public:
-	explicit INT32Operand(const std::string &basic_string);
+	Operand(const std::string &value, eOperandType type);
 
 	int getPrecision() const override;
 
@@ -27,6 +30,8 @@ public:
 	const IOperand *operator%(IOperand const &rhs) const override;
 
 	const std::string &toString() const override;
+
+	double getValue() const;
 };
 
 

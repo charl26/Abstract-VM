@@ -1,13 +1,9 @@
 //
-// Created by Charl THERON on 2017/11/17.
+// Created by Charl THERON on 2017/11/21.
 //
 
 #include "OperandFactory.hpp"
-#include "INT8Operand.hpp"
-#include "INT16Operand.hpp"
-#include "INT32Operand.hpp"
-#include "FloatOperand.hpp"
-#include "DoubleOperand.hpp"
+#include "Operand.hpp"
 
 IOperand const *OperandFactory::createOperand(eOperandType type, std::string const &value) const {
 	try {
@@ -31,29 +27,28 @@ IOperand const *OperandFactory::createOperand(eOperandType type, std::string con
 				return nullptr;
 		}
 	}
-	catch (std::exception exception) {
+	catch (std::exception &exception) {
 		std::cout << exception.what() << std::endl;
-		exit(1);
+		_Exit(EXIT_FAILURE);
 	}
-
 }
 
 IOperand const *OperandFactory::createInt8(std::string const &value) const {
-	return new INT8Operand(value);
+	return new Operand(value, INT8);
 }
 
 IOperand const *OperandFactory::createInt16(std::string const &value) const {
-	return new INT16Operand(value);
+	return new Operand(value, INT16);
 }
 
 IOperand const *OperandFactory::createInt32(std::string const &value) const {
-	return new INT32Operand(value);
+	return new Operand(value, INT32);
 }
 
 IOperand const *OperandFactory::createFloat(std::string const &value) const {
-	return new FloatOperand(value);
+	return new Operand(value, FLOAT);
 }
 
 IOperand const *OperandFactory::createDouble(std::string const &value) const {
-	return new DoubleOperand(value);
+	return new Operand(value, DOUBLE);
 }

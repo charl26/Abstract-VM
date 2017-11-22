@@ -1,5 +1,5 @@
 //
-// Created by Charl THERON on 2017/11/17.
+// Created by Charl THERON on 2017/11/21.
 //
 
 #ifndef OPERANDFACTORY_HPP
@@ -17,7 +17,5 @@ public:
 	IOperand const * createFloat( std::string const & value ) const;
 	IOperand const * createDouble( std::string const & value ) const;
 };
-
-
 
 #endif
