@@ -4,7 +4,13 @@
 #include <map>
 #include "OperandFactory.hpp"
 #include "VmStack.hpp"
-
+std::regex patten("(push int[8|16|32]{1,}\\(-?\\d{1,}\\)|"
+		                  "assert int[8|16|32]{1,}\\(-?\\d{1,}\\)|"
+		                  "push float\\(-?\\d{1,}.\\d{1,}\\)|"
+		                  "push double\\(-?\\d{1,}.\\d{1,}\\)|"
+		                  "assert double\\(-?\\d{1,}.\\d{1,}\\)|"
+		                  "assert float\\(\\d{1,}.\\d{1,}\\)|"
+		                  "add|sub|mul|div|mod|print|exit|pop|dump|;;)");
 struct dataList {
 	std::string command;
 	std::string type;
@@ -17,6 +23,11 @@ std::vector<dataList> commandList;
 void storeInput(std::string &input) {
 	std::vector<std::string> tokens;
 	std::string temp;
+	if ((!(std::regex_match(input, patten)) != (input.find(';') != std::string::npos))) {
+		tokens.emplace_back("ERROR");
+	}
+	if (input.find(";)") != std::string::npos)
+		tokens.emplace_back("ERROR");
 	std::replace(input.begin(), input.end(), '(', ' ');
 	std::replace(input.begin(), input.end(), ')', ' ');
 	std::istringstream stream(input);
@@ -24,12 +35,18 @@ void storeInput(std::string &input) {
 		//	std::cout << temp << std::endl;
 		tokens.push_back(temp);
 	}
-	dataList data;
-	data.command = tokens[0];
-	if (!tokens[1].empty())
+	dataList data = dataList();
+	if (!tokens[0].empty())
+		if (tokens[0] != ";" && tokens[0][0] != ';')
+			data.command = tokens[0];
+	if (!tokens[1].empty() && tokens.size() > 1)
+		if (tokens[1] != ";")
 		data.type = tokens[1];
-	if (!tokens[2].empty())
+	if (!tokens[2].empty() && tokens.size() > 2)
+		if (tokens[2] != ";")
 		data.value = tokens[2];
+	if (data.command.empty())
+		return;
 	commandList.emplace_back(data);
 }
 
@@ -48,6 +65,7 @@ eOperandType getType(const dataList &obj) {
 
 void processCommands() {
 	OperandFactory operandFactory;
+	int lineNumber = 1;
 	for (auto &obj : commandList) {
 		if (obj.command == "push") {
 			eOperandType type = getType(obj);
@@ -77,34 +95,35 @@ void processCommands() {
 			stack->exit();
 		else if (obj.command == ";;")
 			stack->exit();
+		else if (obj.command == "ERROR") {
+			std::cout << "ERROR: Syntax error. on line -> " << lineNumber << std::endl;
+			_Exit(EXIT_FAILURE);
+		}
 		else {
 			std::cout << "ERROR: " << obj.command << " Command not found." << std::endl;
 			_Exit(EXIT_FAILURE);
 		}
+		lineNumber++;
 	}
 	for (auto &obj : stack->getStack()) {
 		std::cout << obj << std::endl;
 	}
 }
 
-
 void readData(std::istream &input) {
 	std::string readData;
 	while (!input.eof()) {
 		std::getline(input, readData, '\n');
 		if (readData.find(";;") == std::string::npos) {
-			if (readData.find(';') == std::string::npos && !readData.empty()) {
+			if (!readData.empty())
 				storeInput(readData);
-			} else
-				std::getline(input, readData, '\n');
 		} else {
 			processCommands();
 		}
-		//	std::getline(input, readData, '\n');
-		//storeInput(readData);
 	}
-	if (readData.find(";;") == std::string::npos && commandList.back().command == "exit")
+	if ((readData.find(";;") == std::string::npos) && (commandList.back().command == "exit"))
 		processCommands();
+	std::cout << "ERROR: There is no exit command" << std::endl;
 }
 
 int main(int argc, char **argv) {

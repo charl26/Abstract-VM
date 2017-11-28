@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(AbstractVMRelase)
+project(Abstract_VM)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -13,4 +13,4 @@ set(SOURCE_FILES
 		VmStack.cpp
 		VmStack.hpp)
 
-add_executable(AbstractVMRelase ${SOURCE_FILES})
+add_executable(Abstract_VM ${SOURCE_FILES})

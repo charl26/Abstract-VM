@@ -62,6 +62,10 @@ void VmStack::div() {
 	value[1] = stack.back();
 	stack.pop_back();
 	long double newValue;
+	if (value[0]->value  == 0 | value[1]->value == 0) {
+		std::cout << "ERROR: Can not divide by 0" << std::endl;
+		_Exit(EXIT_FAILURE);
+	}
 	newValue = value[0]->value / value[1]->value;
 	OperandFactory factory;
 	std::stringstream ss;
@@ -107,7 +111,7 @@ void VmStack::mod() {
 	value[1] = stack.back();
 	stack.pop_back();
 	long double newValue;
-	newValue = fmod(static_cast<double>(value[0]->value), static_cast<double>(value[1]->value));
+	newValue = std::fmodl(value[0]->value, value[1]->value);
 	OperandFactory factory;
 	std::stringstream ss;
 	ss << newValue;
@@ -143,6 +147,7 @@ void VmStack::print() {
 		_Exit(EXIT_FAILURE);
 	}
 	if (stack.back()->getType() > INT8) {
+		std::cout << "ERROR: obj not of int8" << std::endl;
 		_Exit(EXIT_SUCCESS);
 	}
 	std::cout << static_cast<char>(stack.back()->value) << std::endl;
