@@ -120,7 +120,7 @@ void VmStack::mod() {
 
 void VmStack::pop() {
 	if (stack.empty()) {
-		std::cout << "ERROR: the Stack is empty" << std::endl;
+		std::cout << "ERROR: POP the Stack is empty" << std::endl;
 		_Exit(EXIT_FAILURE);
 	}
 	stack.pop_back();
@@ -128,11 +128,11 @@ void VmStack::pop() {
 
 void VmStack::dump() {
 	if (stack.empty()) {
-		std::cout << "ERROR: the Stack is empty" << std::endl;
+		std::cout << "ERROR: DUMP the Stack is empty" << std::endl;
 		_Exit(EXIT_FAILURE);
 	}
 	for (auto size = static_cast<int>(stack.size()); size > 0; size--) {
-		std::cout << stack.back()->value << std::endl;
+		std::cout << stack[size -1]->value << std::endl;
 	}
 
 }
@@ -164,10 +164,10 @@ const std::vector<IOperand *> &VmStack::getStack() {
 void VmStack::assert(eOperandType type, std::string value) {
 	auto obj = stack.back();
 	if (obj->getType() == type) {
-		if (obj->toString().compare(value)){
+		if (obj->toString() == value){
 			return;
 		} else {
-			std::cout << "ERROR: the values don't match." << obj->toString() << "<- obj value : value ->" << value << std::endl;
+			std::cout << "ERROR: the values don't match " << obj->toString() << " <- obj value : value -> " << value << std::endl;
 			_Exit(EXIT_FAILURE);
 		}
 	} else {

@@ -91,15 +91,20 @@ void processCommands() {
 void readData(std::istream &input) {
 	std::string readData;
 	while (!input.eof()) {
+		std::getline(input, readData, '\n');
 		if (readData.find(";;") == std::string::npos) {
-			std::getline(input, readData, '\n');
-			storeInput(readData);
+			if (readData.find(';') == std::string::npos && !readData.empty()) {
+				storeInput(readData);
+			} else
+				std::getline(input, readData, '\n');
 		} else {
 			processCommands();
 		}
 		//	std::getline(input, readData, '\n');
 		//storeInput(readData);
 	}
+	if (readData.find(";;") == std::string::npos && commandList.back().command == "exit")
+		processCommands();
 }
 
 int main(int argc, char **argv) {
