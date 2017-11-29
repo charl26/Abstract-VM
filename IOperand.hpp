@@ -12,7 +12,7 @@ enum eOperandType{INT8, INT16, INT32, FLOAT, DOUBLE};
 
 class IOperand {
 public:
-	double value;
+	double value{};
 	virtual int getPrecision() const = 0; // Precision of the type of the instance
 	virtual eOperandType getType() const = 0; // Type of the instance
 	virtual IOperand const * operator+( IOperand const & rhs ) const = 0; // Sum

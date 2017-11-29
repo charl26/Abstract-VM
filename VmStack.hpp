@@ -14,7 +14,6 @@ class VmStack {
 private:
 	std::vector<IOperand*> stack;
 public:
-	const std::vector<IOperand *> &getStack();
 	void push(IOperand *obj);
 	void add();
 	void sub();

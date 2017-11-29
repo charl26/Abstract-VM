@@ -19,7 +19,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	$(CC) $(CPPFLAGS) $(SRC) -o $(NAME)
 clean:
-	$(RM)
+	$(RM) $(OBJ)
 
 fclean: clean
 	$(RM) $(NAME)

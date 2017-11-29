@@ -13,3 +13,5 @@ char const *VMExceptions::what() const throw()  {
 	std::cout << message << std::endl;
 	return std::exception::what();
 }
+
+VMExceptions::~VMExceptions() = default;

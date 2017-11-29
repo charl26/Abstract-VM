@@ -2,8 +2,8 @@
 // Created by Charl THERON on 2017/11/29.
 //
 
-#ifndef ABSTRACT_VM_VMEXCEPTIONS_HPP
-#define ABSTRACT_VM_VMEXCEPTIONS_HPP
+#ifndef VMEXCEPTIONS_HPP
+#define VMEXCEPTIONS_HPP
 
 
 #include <exception>
@@ -16,8 +16,10 @@ private:
 public:
 	explicit VMExceptions (char const*message) throw();
 
+	~VMExceptions() override;
+
 	char const* what() const throw() override;
 };
 
 
-#endif //ABSTRACT_VM_VMEXCEPTIONS_HPP
+#endif

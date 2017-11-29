@@ -156,10 +156,6 @@ void VmStack::push(IOperand *obj) {
 
 }
 
-const std::vector<IOperand *> &VmStack::getStack() {
-	return stack;
-}
-
 void VmStack::assert(eOperandType type, std::string value) {
 	auto obj = stack.back();
 	if (obj->getType() == type) {
