@@ -93,8 +93,6 @@ void processCommands() {
 			stack->print();
 		else if (obj.command == "exit")
 			stack->exit();
-		else if (obj.command == ";;")
-			stack->exit();
 		else if (obj.command == "ERROR") {
 			std::cout << "ERROR: Syntax error. on line -> " << lineNumber << std::endl;
 			_Exit(EXIT_SUCCESS);
@@ -105,9 +103,8 @@ void processCommands() {
 		}
 		lineNumber++;
 	}
-	for (auto &obj : stack->getStack()) {
-		std::cout << obj << std::endl;
-	}
+	std::cout << "ERROR: There is no Exit command."  << std::endl;
+	_Exit(EXIT_FAILURE);
 }
 
 void readData(std::istream &input) {
