@@ -6,8 +6,17 @@
 #define ABSTRACT_VM_VMEXCEPTIONS_HPP
 
 
-class VMExceptions {
+#include <exception>
+#include <stdexcept>
+#include <iostream>
 
+class VMExceptions : public virtual std::exception {
+private:
+	std::string message;
+public:
+	explicit VMExceptions (char const*message) throw();
+
+	char const* what() const throw() override;
 };
 
 

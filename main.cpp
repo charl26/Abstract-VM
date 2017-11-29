@@ -4,6 +4,8 @@
 #include <map>
 #include "OperandFactory.hpp"
 #include "VmStack.hpp"
+#include "VMExceptions.hpp"
+
 std::regex patten("(push int[8|16|32]{1,}\\(-?\\d{1,}\\)|"
 		                  "assert int[8|16|32]{1,}\\(-?\\d{1,}\\)|"
 		                  "push float\\(-?\\d{1,}.\\d{1,}\\)|"
@@ -40,10 +42,10 @@ void storeInput(std::string &input) {
 			data.command = tokens[0];
 	if (!tokens[1].empty() && tokens.size() > 1)
 		if (tokens[1] != ";")
-		data.type = tokens[1];
+			data.type = tokens[1];
 	if (!tokens[2].empty() && tokens.size() > 2)
 		if (tokens[2] != ";")
-		data.value = tokens[2];
+			data.value = tokens[2];
 	if (data.command.empty())
 		return;
 	commandList.emplace_back(data);
@@ -64,6 +66,7 @@ eOperandType getType(const dataList &obj) {
 
 void processCommands() {
 	OperandFactory operandFactory;
+	std::string error;
 	int lineNumber = 1;
 	for (auto &obj : commandList) {
 		if (obj.command == "push") {
@@ -93,17 +96,15 @@ void processCommands() {
 		else if (obj.command == "exit")
 			stack->exit();
 		else if (obj.command == "ERROR") {
-			std::cout << "ERROR: Syntax error. on line -> " << lineNumber << std::endl;
-			_Exit(EXIT_SUCCESS);
-		}
-		else {
-			std::cout << "ERROR: " << obj.command << " Command not found." << std::endl;
-			_Exit(EXIT_SUCCESS);
+			error = "ERROR: Syntax error: on line -> " + std::to_string(lineNumber);
+			throw VMExceptions(error.c_str());
+		} else {
+			error = "ERROR: " + obj.command + " Command not found.";
+			throw VMExceptions(error.c_str());
 		}
 		lineNumber++;
 	}
-	std::cout << "ERROR: There is no Exit command."  << std::endl;
-	_Exit(EXIT_FAILURE);
+	throw VMExceptions("ERROR: There is no Exit command.");
 }
 
 void readData(std::istream &input) {
@@ -118,11 +119,9 @@ void readData(std::istream &input) {
 		}
 	}
 	if (commandList.empty() && readData.empty()) {
-		std::cout << "ERROR: file is empty." << std::endl;
-		_Exit(EXIT_SUCCESS);
-	} else if (commandList.empty()){
-		std::cout << "ERROR: There is no commands." << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: file is empty.");
+	} else if (commandList.empty()) {
+		throw VMExceptions("ERROR: There is no commands.");
 	}
 	if ((readData.find(";;") == std::string::npos) && (commandList.back().command == "exit"))
 		processCommands();
@@ -132,27 +131,32 @@ void readData(std::istream &input) {
 int main(int argc, char **argv) {
 	if (!stack)
 		stack = new VmStack();
-	switch (argc) {
-		case 1: {
-			std::cout << "Enter input line by line" << std::endl;
-			readData(std::cin);
-			break;
-		}
-		case 2: {
-			std::ifstream
-					inFile(argv[1]);
-			if (inFile) {
-				readData(inFile);
-			} else {
-				std::cout << "Unable to open file: { " << argv[1] << " }" << std::endl;
+	try {
+		switch (argc) {
+			case 1: {
+				std::cout << "Enter input line by line" << std::endl;
+				readData(std::cin);
+				break;
 			}
-			break;
+			case 2: {
+				std::ifstream
+						inFile(argv[1]);
+				if (inFile) {
+					readData(inFile);
+				} else {
+					std::cout << "Unable to open file: { " << argv[1] << " }" << std::endl;
+				}
+				break;
+			}
+			default: {
+				std::cout << "ERROR: Incorrect Amount of argument either"
+						" input form a file or run without args and input "
+						"commands line by line via stdin" << std::endl;
+			}
 		}
-		default: {
-			std::cout << "ERROR: Incorrect Amount of argument either"
-					" input form a file or run without args and input "
-					"commands line by line via stdin" << std::endl;
-		}
+	}
+	catch (VMExceptions &exceptions) {
+		exceptions.what();
 	}
 	return (0);
 }

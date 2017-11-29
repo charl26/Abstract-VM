@@ -5,12 +5,12 @@
 #include <cmath>
 #include "VmStack.hpp"
 #include "OperandFactory.hpp"
+#include "VMExceptions.hpp"
 
 
 void VmStack::add() {
 	if (stack.size() < 2) {
-		std::cout << "ERROR: only one value of the stack." << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: only one value of the stack.");
 	}
 	IOperand *value[2];
 	value[0] = stack.back();
@@ -31,8 +31,7 @@ void VmStack::add() {
 
 void VmStack::sub() {
 	if (stack.size() < 2) {
-		std::cout << "ERROR: only one value of the stack." << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: only one value of the stack.");
 	}
 	IOperand *value[2];
 	value[0] = stack.back();
@@ -53,8 +52,7 @@ void VmStack::sub() {
 
 void VmStack::div() {
 	if (stack.size() < 2) {
-		std::cout << "ERROR: only one value of the stack." << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: only one value of the stack.");
 	}
 	IOperand *value[2];
 	value[0] = stack.back();
@@ -63,8 +61,7 @@ void VmStack::div() {
 	stack.pop_back();
 	long double newValue;
 	if (value[0]->value  == 0 | value[1]->value == 0) {
-		std::cout << "ERROR: Can not divide by 0" << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: Can not divide by 0");
 	}
 	newValue = value[0]->value / value[1]->value;
 	OperandFactory factory;
@@ -80,8 +77,7 @@ void VmStack::div() {
 
 void VmStack::mul() {
 	if (stack.size() < 2) {
-		std::cout << "ERROR: only one value of the stack." << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: only one value of the stack.");
 	}
 	IOperand *value[2];
 	value[0] = stack.back();
@@ -102,8 +98,7 @@ void VmStack::mul() {
 
 void VmStack::mod() {
 	if (stack.size() < 2) {
-		std::cout << "ERROR: only one value of the stack." << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: only one value of the stack.");
 	}
 	IOperand *value[2];
 	value[0] = stack.back();
@@ -112,8 +107,7 @@ void VmStack::mod() {
 	stack.pop_back();
 	long double newValue;
 	if (value[0]->value  == 0 | value[1]->value == 0) {
-		std::cout << "ERROR: Can not Mod by 0" << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: Can not divide by 0");
 	}
 	newValue = std::fmodl(value[0]->value, value[1]->value);
 	OperandFactory factory;
@@ -128,16 +122,14 @@ void VmStack::mod() {
 
 void VmStack::pop() {
 	if (stack.empty()) {
-		std::cout << "ERROR: POP the Stack is empty" << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: POP the Stack is empty");
 	}
 	stack.pop_back();
 }
 
 void VmStack::dump() {
 	if (stack.empty()) {
-		std::cout << "ERROR: DUMP the Stack is empty" << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: DUMP the Stack is empty");
 	}
 	for (auto size = static_cast<int>(stack.size()); size > 0; size--) {
 		std::cout << stack[size -1]->value << std::endl;
@@ -147,12 +139,10 @@ void VmStack::dump() {
 
 void VmStack::print() {
 	if (stack.empty()) {
-		std::cout << "ERROR: the Stack is empty" << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: PRINT the Stack is empty");
 	}
 	if (stack.back()->getType() > INT8) {
-		std::cout << "ERROR: not of int8" << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: not of int8");
 	}
 	std::cout << static_cast<char>(stack.back()->value) << std::endl;
 }
@@ -176,12 +166,11 @@ void VmStack::assert(eOperandType type, std::string value) {
 		if (obj->toString() == value){
 			return;
 		} else {
-			std::cout << "ERROR: the values don't match " << obj->toString() << " <- obj value : value -> " << value << std::endl;
-			_Exit(EXIT_SUCCESS);
+			std::string error = "ERROR: the values don't match " + obj->toString() + " <- obj value : value -> " + value;
+			throw VMExceptions(error.c_str());
 		}
 	} else {
-		std::cout << "ERROR: the type is incorrect." << std::endl;
-		_Exit(EXIT_SUCCESS);
+		throw VMExceptions("ERROR: the type is incorrect.");
 	}
 }
 
