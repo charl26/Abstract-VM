@@ -7,7 +7,8 @@
 
 
 #include <vector>
-#include "operand/IOperand.hpp"
+#include <cstdlib>
+#include "IOperand.hpp"
 
 class VmStack {
 private:
@@ -25,7 +26,7 @@ public:
 	void pop();
 	void exit();
 
+	void assert(eOperandType type, std::string value);
 };
-
 
 #endif

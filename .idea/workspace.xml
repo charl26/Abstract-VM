@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Abstract_VM" targetName="Abstract_VM" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbd5fdaa-497b-49bc-ae60-0c51b73ce428" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path=".idea/" />
+    <ignored path="cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AbstractVMRelase" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding>
+                <element signature="e#545#625#1" expanded="false" />
+                <element signature="e#1613#1867#0" expanded="false" />
+                <marker date="1511932080000" expanded="true" signature="2010:2137" ph="..." />
+                <marker date="1511932080000" expanded="true" signature="2137:2138" ph="..." />
+                <marker date="1511932080000" expanded="true" signature="2174:2249" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EXIT_FAILURE</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>EXIT_SUCCESS</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test1.txt" />
+        <option value="$PROJECT_DIR$/Test_files/test2.txt" />
+        <option value="$PROJECT_DIR$/Test_files/test3" />
+        <option value="$PROJECT_DIR$/Test_files/test3.avm" />
+        <option value="$PROJECT_DIR$/Test_files/test5.avm" />
+        <option value="$PROJECT_DIR$/Test_files/test6.avm" />
+        <option value="$PROJECT_DIR$/Test_files/test01.txt" />
+        <option value="$PROJECT_DIR$/Test_files/test04.txt" />
+        <option value="$PROJECT_DIR$/Test_files/test08.txt" />
+        <option value="$PROJECT_DIR$/Test_files/test10.txt" />
+        <option value="$PROJECT_DIR$/Test_files/test13.txt" />
+        <option value="$PROJECT_DIR$/Test_files/test14.txt" />
+        <option value="$PROJECT_DIR$/Test_files/invalidTestCases/Underflow_push8.avm" />
+        <option value="$PROJECT_DIR$/VmStack.cpp" />
+        <option value="$PROJECT_DIR$/OperandFactory.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>C/C++</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>C/C++</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Abstract_VM" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Abstract-VM" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Test_files" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Run all tests">
+    <configuration name="Abstract_VM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="EmptyFile" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="EmptyFile.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="FileWithComment" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="FileWithComment.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="NoExit" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="NoExit.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="Overflow_push16" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_push16.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="Overflow_push32" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_push32.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="Overflow_push8" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_push8.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="Overflow_pushdouble" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_pushdouble.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="Overflow_pushfloat" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_pushfloat.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="Run all tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method>
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="false" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test1" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test2" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test3" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test4" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test5" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test6" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test7" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test8" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test9" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test10" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test11" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test12" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test13" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="test14" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="div0" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EmptyFile" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="fail_add" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="fail_assert" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="fail_div" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="fail_mod" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="fail_mul" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="fail_print" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="fail_sub" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="FileWithComment" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="mod0" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="NoExit" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Overflow_push8" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Overflow_push16" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Overflow_push32" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Overflow_pushdouble" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Overflow_pushfloat" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="syntaxCheck" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Underflow_double" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Underflow_float" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Underflow_push8" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Underflow_push16" run_configuration_type="CMakeRunConfiguration" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Underflow_push32" run_configuration_type="CMakeRunConfiguration" />
+      </method>
+    </configuration>
+    <configuration name="Underflow_double" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_double.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="Underflow_float" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_float.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="Underflow_push16" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_push16.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="Underflow_push32" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_push32.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="Underflow_push8" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_push8.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="console test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="div0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="div0.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="fail_add" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_add.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="fail_assert" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_assert.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="fail_div" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_div.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="fail_mod" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_mod.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="fail_mul" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_mul.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="fail_print" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_print.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="fail_sub" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_sub.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="mod0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="mod0.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="syntaxCheck" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="syntaxCheck.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test01.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test10" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test10.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test11" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test11.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test12" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test12.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test13" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test13.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test14" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test14.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test02.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test3" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test03.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test4" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test04.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test5" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test05.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test6" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test06.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test7" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test07.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test8" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test08.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <configuration name="test9" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test09.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+      <envs />
+    </configuration>
+    <list size="40">
+      <item index="0" class="java.lang.String" itemvalue="Application.test1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.test2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.test3" />
+      <item index="3" class="java.lang.String" itemvalue="Application.test4" />
+      <item index="4" class="java.lang.String" itemvalue="Application.test5" />
+      <item index="5" class="java.lang.String" itemvalue="Application.test6" />
+      <item index="6" class="java.lang.String" itemvalue="Application.test7" />
+      <item index="7" class="java.lang.String" itemvalue="Application.test8" />
+      <item index="8" class="java.lang.String" itemvalue="Application.test9" />
+      <item index="9" class="java.lang.String" itemvalue="Application.test10" />
+      <item index="10" class="java.lang.String" itemvalue="Application.test11" />
+      <item index="11" class="java.lang.String" itemvalue="Application.test12" />
+      <item index="12" class="java.lang.String" itemvalue="Application.test13" />
+      <item index="13" class="java.lang.String" itemvalue="Application.test14" />
+      <item index="14" class="java.lang.String" itemvalue="Application.div0" />
+      <item index="15" class="java.lang.String" itemvalue="Application.EmptyFile" />
+      <item index="16" class="java.lang.String" itemvalue="Application.fail_add" />
+      <item index="17" class="java.lang.String" itemvalue="Application.fail_assert" />
+      <item index="18" class="java.lang.String" itemvalue="Application.fail_div" />
+      <item index="19" class="java.lang.String" itemvalue="Application.fail_mod" />
+      <item index="20" class="java.lang.String" itemvalue="Application.fail_mul" />
+      <item index="21" class="java.lang.String" itemvalue="Application.fail_print" />
+      <item index="22" class="java.lang.String" itemvalue="Application.fail_sub" />
+      <item index="23" class="java.lang.String" itemvalue="Application.FileWithComment" />
+      <item index="24" class="java.lang.String" itemvalue="Application.mod0" />
+      <item index="25" class="java.lang.String" itemvalue="Application.NoExit" />
+      <item index="26" class="java.lang.String" itemvalue="Application.Overflow_push8" />
+      <item index="27" class="java.lang.String" itemvalue="Application.Overflow_push16" />
+      <item index="28" class="java.lang.String" itemvalue="Application.Overflow_push32" />
+      <item index="29" class="java.lang.String" itemvalue="Application.Overflow_pushdouble" />
+      <item index="30" class="java.lang.String" itemvalue="Application.Overflow_pushfloat" />
+      <item index="31" class="java.lang.String" itemvalue="Application.syntaxCheck" />
+      <item index="32" class="java.lang.String" itemvalue="Application.Underflow_double" />
+      <item index="33" class="java.lang.String" itemvalue="Application.Underflow_float" />
+      <item index="34" class="java.lang.String" itemvalue="Application.Underflow_push8" />
+      <item index="35" class="java.lang.String" itemvalue="Application.Underflow_push16" />
+      <item index="36" class="java.lang.String" itemvalue="Application.Underflow_push32" />
+      <item index="37" class="java.lang.String" itemvalue="Application.console test" />
+      <item index="38" class="java.lang.String" itemvalue="Application.Run all tests" />
+      <item index="39" class="java.lang.String" itemvalue="Application.Abstract_VM" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbd5fdaa-497b-49bc-ae60-0c51b73ce428" name="Default" comment="" />
+      <created>1511355456148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511355456148</updated>
+      <workItem from="1511355464523" duration="155000" />
+      <workItem from="1511357955724" duration="3149000" />
+      <workItem from="1511418269516" duration="2081000" />
+      <workItem from="1511844696171" duration="4345000" />
+      <workItem from="1511855343762" duration="13769000" />
+      <workItem from="1511928400241" duration="2646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26145000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2630458" sideWeight="0.49652433" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25772098" sideWeight="0.50347567" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39920557" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>65</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="111" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/VmStack.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VmStack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="8" lean-forward="false" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#545#625#1" expanded="false" />
+            <element signature="e#1613#1867#0" expanded="false" />
+            <marker date="1511932080000" expanded="true" signature="2010:2137" ph="..." />
+            <marker date="1511932080000" expanded="true" signature="2137:2138" ph="..." />
+            <marker date="1511932080000" expanded="true" signature="2174:2249" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperandFactory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VmStack.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VmStack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VmStack.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test1.txt" />
+    <entry file="file://$PROJECT_DIR$/Test_files/test2.txt" />
+    <entry file="file://$PROJECT_DIR$/Test_files/test3" />
+    <entry file="file://$PROJECT_DIR$/Test_files/test4.avm" />
+    <entry file="file://$PROJECT_DIR$/Test_files/test5.avm" />
+    <entry file="file://$PROJECT_DIR$/Test_files/test6.avm" />
+    <entry file="file://$PROJECT_DIR$/Test_files/test7.avm" />
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="669" column="0" lean-forward="false" selection-start-line="669" selection-start-column="0" selection-end-line="669" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/regex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="5984" column="0" lean-forward="false" selection-start-line="5984" selection-start-column="0" selection-end-line="5984" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOperand.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/limits">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="439" column="28" lean-forward="false" selection-start-line="439" selection-start-column="28" selection-end-line="439" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operand.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test05.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test06.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test08.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test11.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="3814" column="0" lean-forward="false" selection-start-line="3814" selection-start-column="0" selection-end-line="3814" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/FileWithComment.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/Underflow_push8.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/Underflow_push16.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VmStack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperandFactory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1324">
+          <caret line="119" column="26" lean-forward="false" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test04.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test07.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test09.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/div0.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/Overflow_push32.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test02.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test03.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/Underflow_float.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/Overflow_pushfloat.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/Overflow_push8.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/mod0.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/fail_sub.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/fail_mul.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/fail_div.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/invalidTestCases/fail_add.avm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test13.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_files/test14.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#545#625#1" expanded="false" />
+            <element signature="e#1613#1867#0" expanded="false" />
+            <marker date="1511932080000" expanded="true" signature="2010:2137" ph="..." />
+            <marker date="1511932080000" expanded="true" signature="2137:2138" ph="..." />
+            <marker date="1511932080000" expanded="true" signature="2174:2249" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
