@@ -97,11 +97,11 @@ void processCommands() {
 			stack->exit();
 		else if (obj.command == "ERROR") {
 			std::cout << "ERROR: Syntax error. on line -> " << lineNumber << std::endl;
-			_Exit(EXIT_FAILURE);
+			_Exit(EXIT_SUCCESS);
 		}
 		else {
 			std::cout << "ERROR: " << obj.command << " Command not found." << std::endl;
-			_Exit(EXIT_FAILURE);
+			_Exit(EXIT_SUCCESS);
 		}
 		lineNumber++;
 	}
@@ -120,6 +120,13 @@ void readData(std::istream &input) {
 		} else {
 			processCommands();
 		}
+	}
+	if (commandList.empty() && readData.empty()) {
+		std::cout << "ERROR: file is empty." << std::endl;
+		_Exit(EXIT_SUCCESS);
+	} else if (commandList.empty()){
+		std::cout << "ERROR: There is no commands." << std::endl;
+		_Exit(EXIT_SUCCESS);
 	}
 	if ((readData.find(";;") == std::string::npos) && (commandList.back().command == "exit"))
 		processCommands();
