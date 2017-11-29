@@ -67,6 +67,7 @@ const IOperand *Operand::operator/(IOperand const &rhs) const {
 }
 
 const IOperand *Operand::operator%(IOperand const &rhs) const {
+	printf("%f", rhs.value);
 	return nullptr;
 }
 

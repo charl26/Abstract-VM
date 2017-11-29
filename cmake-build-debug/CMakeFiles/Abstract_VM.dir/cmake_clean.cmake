@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Abstract_VM.dir/Operand.cpp.o"
   "CMakeFiles/Abstract_VM.dir/OperandFactory.cpp.o"
   "CMakeFiles/Abstract_VM.dir/VmStack.cpp.o"
+  "CMakeFiles/Abstract_VM.dir/VMExceptions.cpp.o"
   "Abstract_VM.pdb"
   "Abstract_VM"
 )

@@ -11,6 +11,6 @@ set(SOURCE_FILES
 		OperandFactory.cpp
 		OperandFactory.hpp
 		VmStack.cpp
-		VmStack.hpp)
+		VmStack.hpp VMExceptions.cpp VMExceptions.hpp)
 
 add_executable(Abstract_VM ${SOURCE_FILES})

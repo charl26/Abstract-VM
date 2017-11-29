@@ -95,6 +95,12 @@
 		<Unit filename="/goinfre/chtheron/Desktop/Abstract-VM/OperandFactory.hpp">
 			<Option target="Abstract_VM"/>
 		</Unit>
+		<Unit filename="/goinfre/chtheron/Desktop/Abstract-VM/VMExceptions.cpp">
+			<Option target="Abstract_VM"/>
+		</Unit>
+		<Unit filename="/goinfre/chtheron/Desktop/Abstract-VM/VMExceptions.hpp">
+			<Option target="Abstract_VM"/>
+		</Unit>
 		<Unit filename="/goinfre/chtheron/Desktop/Abstract-VM/VmStack.cpp">
 			<Option target="Abstract_VM"/>
 		</Unit>

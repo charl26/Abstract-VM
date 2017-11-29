@@ -32,7 +32,6 @@ void storeInput(std::string &input) {
 	std::replace(input.begin(), input.end(), ')', ' ');
 	std::istringstream stream(input);
 	while (std::getline(stream, temp, ' ')) {
-		//	std::cout << temp << std::endl;
 		tokens.push_back(temp);
 	}
 	dataList data = dataList();

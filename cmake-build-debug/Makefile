@@ -177,6 +177,33 @@ OperandFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/Abstract_VM.dir/build.make CMakeFiles/Abstract_VM.dir/OperandFactory.cpp.s
 .PHONY : OperandFactory.cpp.s
 
+VMExceptions.o: VMExceptions.cpp.o
+
+.PHONY : VMExceptions.o
+
+# target to build an object file
+VMExceptions.cpp.o:
+	$(MAKE) -f CMakeFiles/Abstract_VM.dir/build.make CMakeFiles/Abstract_VM.dir/VMExceptions.cpp.o
+.PHONY : VMExceptions.cpp.o
+
+VMExceptions.i: VMExceptions.cpp.i
+
+.PHONY : VMExceptions.i
+
+# target to preprocess a source file
+VMExceptions.cpp.i:
+	$(MAKE) -f CMakeFiles/Abstract_VM.dir/build.make CMakeFiles/Abstract_VM.dir/VMExceptions.cpp.i
+.PHONY : VMExceptions.cpp.i
+
+VMExceptions.s: VMExceptions.cpp.s
+
+.PHONY : VMExceptions.s
+
+# target to generate assembly for a file
+VMExceptions.cpp.s:
+	$(MAKE) -f CMakeFiles/Abstract_VM.dir/build.make CMakeFiles/Abstract_VM.dir/VMExceptions.cpp.s
+.PHONY : VMExceptions.cpp.s
+
 VmStack.o: VmStack.cpp.o
 
 .PHONY : VmStack.o
@@ -246,6 +273,9 @@ help:
 	@echo "... OperandFactory.o"
 	@echo "... OperandFactory.i"
 	@echo "... OperandFactory.s"
+	@echo "... VMExceptions.o"
+	@echo "... VMExceptions.i"
+	@echo "... VMExceptions.s"
 	@echo "... VmStack.o"
 	@echo "... VmStack.i"
 	@echo "... VmStack.s"

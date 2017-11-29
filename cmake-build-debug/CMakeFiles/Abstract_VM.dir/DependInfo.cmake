@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/goinfre/chtheron/Desktop/Abstract-VM/Operand.cpp" "/goinfre/chtheron/Desktop/Abstract-VM/cmake-build-debug/CMakeFiles/Abstract_VM.dir/Operand.cpp.o"
   "/goinfre/chtheron/Desktop/Abstract-VM/OperandFactory.cpp" "/goinfre/chtheron/Desktop/Abstract-VM/cmake-build-debug/CMakeFiles/Abstract_VM.dir/OperandFactory.cpp.o"
+  "/goinfre/chtheron/Desktop/Abstract-VM/VMExceptions.cpp" "/goinfre/chtheron/Desktop/Abstract-VM/cmake-build-debug/CMakeFiles/Abstract_VM.dir/VMExceptions.cpp.o"
   "/goinfre/chtheron/Desktop/Abstract-VM/VmStack.cpp" "/goinfre/chtheron/Desktop/Abstract-VM/cmake-build-debug/CMakeFiles/Abstract_VM.dir/VmStack.cpp.o"
   "/goinfre/chtheron/Desktop/Abstract-VM/main.cpp" "/goinfre/chtheron/Desktop/Abstract-VM/cmake-build-debug/CMakeFiles/Abstract_VM.dir/main.cpp.o"
   )
