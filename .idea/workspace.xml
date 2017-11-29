@@ -22,9 +22,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
-    <generated>
-      <config projectName="Abstract_VM" targetName="Abstract_VM" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -33,26 +31,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd5fdaa-497b-49bc-ae60-0c51b73ce428" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMExceptions.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMExceptions.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Abstract_VM" afterPath="$PROJECT_DIR$/cmake-build-debug/Abstract_VM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/Operand.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/Operand.cpp.o" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AbstractVM" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/Abstract_VM" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/Abstract_VM.cbp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/Operand.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/OperandFactory.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/VmStack.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/depend.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/flags.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/link.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/main.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Operand.cpp" afterPath="$PROJECT_DIR$/Operand.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Abstract_VM.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Abstract_VM.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Abstract_VM.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path=".idea/" />
@@ -68,74 +88,7 @@
     <favorites_list name="AbstractVMRelase" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1511934163000" expanded="true" signature="3846:4372" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VmStack.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VmStack.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="164" column="28" lean-forward="false" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VMExceptions.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VMExceptions.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VMExceptions.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VMExceptions.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operand.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Operand.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding>
-                <marker date="1511934163000" expanded="true" signature="1973:2019" ph="{...}" />
-                <marker date="1511934163000" expanded="true" signature="2066:2090" ph="{...}" />
-                <marker date="1511934163000" expanded="true" signature="2125:2143" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -220,7 +173,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="Abstract_VM" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Abstract-VM" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="Abstract-VM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -251,34 +204,31 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Run all tests">
-    <configuration name="Abstract_VM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="EmptyFile" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="EmptyFile.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="EmptyFile" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="EmptyFile.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="FileWithComment" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="FileWithComment.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="FileWithComment" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="FileWithComment.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="NoExit" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="NoExit.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="NoExit" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="NoExit.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="Overflow_push16" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_push16.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="Overflow_push16" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_push16.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="Overflow_push32" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_push32.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="Overflow_push32" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_push32.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="Overflow_push8" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_push8.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="Overflow_push8" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_push8.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="Overflow_pushdouble" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_pushdouble.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="Overflow_pushdouble" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_pushdouble.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="Overflow_pushfloat" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_pushfloat.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="Overflow_pushfloat" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Overflow_pushfloat.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
-      <envs />
-    </configuration>
-    <configuration name="Run all tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Run all tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
       <method>
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="false" />
@@ -321,97 +271,97 @@
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="Underflow_push32" run_configuration_type="CMakeRunConfiguration" />
       </method>
     </configuration>
-    <configuration name="Underflow_double" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_double.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="Underflow_double" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_double.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="Underflow_float" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_float.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="Underflow_float" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_float.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="Underflow_push16" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_push16.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="Underflow_push16" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_push16.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="Underflow_push32" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_push32.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="Underflow_push32" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_push32.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="Underflow_push8" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_push8.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="Underflow_push8" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Underflow_push8.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="console test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="console test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="div0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="div0.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="div0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="div0.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="fail_add" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_add.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="fail_add" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_add.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="fail_assert" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_assert.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="fail_assert" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_assert.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="fail_div" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_div.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="fail_div" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_div.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="fail_mod" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_mod.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="fail_mod" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_mod.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="fail_mul" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_mul.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="fail_mul" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_mul.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="fail_print" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_print.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="fail_print" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_print.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="fail_sub" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_sub.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="fail_sub" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fail_sub.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="mod0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="mod0.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="mod0" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="mod0.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="syntaxCheck" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="syntaxCheck.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="syntaxCheck" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="syntaxCheck.avm" WORKING_DIR="file://$PROJECT_DIR$/Test_files/invalidTestCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test01.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test01.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test10" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test10.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test10" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test10.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test11" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test11.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test11" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test11.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test12" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test12.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test12" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test12.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test13" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test13.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test13" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test13.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test14" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test14.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test14" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test14.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test02.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test02.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test3" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test03.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test3" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test03.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test4" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test04.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test4" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test04.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test5" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test05.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test5" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test05.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test6" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test06.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test6" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test06.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test7" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test07.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test7" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test07.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test8" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test08.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test8" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test08.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <configuration name="test9" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test09.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Abstract_VM" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Abstract_VM" RUN_TARGET_NAME="Abstract_VM">
+    <configuration name="test9" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test09.txt" WORKING_DIR="file://$PROJECT_DIR$/Test_files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Abstract_VM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Abstract_VM">
       <envs />
     </configuration>
-    <list size="40">
+    <list size="39">
       <item index="0" class="java.lang.String" itemvalue="Application.test1" />
       <item index="1" class="java.lang.String" itemvalue="Application.test2" />
       <item index="2" class="java.lang.String" itemvalue="Application.test3" />
@@ -451,7 +401,6 @@
       <item index="36" class="java.lang.String" itemvalue="Application.Underflow_push32" />
       <item index="37" class="java.lang.String" itemvalue="Application.console test" />
       <item index="38" class="java.lang.String" itemvalue="Application.Run all tests" />
-      <item index="39" class="java.lang.String" itemvalue="Application.Abstract_VM" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -469,28 +418,27 @@
       <workItem from="1511418269516" duration="2081000" />
       <workItem from="1511844696171" duration="4345000" />
       <workItem from="1511855343762" duration="13769000" />
-      <workItem from="1511928400241" duration="4387000" />
+      <workItem from="1511928400241" duration="6042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27886000" />
+    <option name="totallyTimeSpent" value="29541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="101" y="100" width="1720" height="880" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2630458" sideWeight="0.49652433" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2630458" sideWeight="0.49652433" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25772098" sideWeight="0.50347567" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39920557" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -574,14 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="5984" column="0" lean-forward="false" selection-start-line="5984" selection-start-column="0" selection-end-line="5984" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,26 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VmStack.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="164" column="28" lean-forward="false" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Operand.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <marker date="1511934163000" expanded="true" signature="1973:2019" ph="{...}" />
-            <marker date="1511934163000" expanded="true" signature="2066:2090" ph="{...}" />
-            <marker date="1511934163000" expanded="true" signature="2125:2143" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OperandFactory.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -882,6 +802,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VmStack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="164" column="28" lean-forward="false" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -892,10 +828,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="file://$PROJECT_DIR$/Operand.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="405">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
