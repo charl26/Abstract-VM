@@ -6,7 +6,7 @@
 #include "Operand.hpp"
 #include "OperandFactory.hpp"
 
-Operand::Operand(const std::string &value, eOperandType type) {
+Operand::Operand(double value1, const std::string &value, eOperandType type) : IOperand(value1) {
 	std::stringstream ss;
 	ss << value;
 	this->stringValue = value;
@@ -25,7 +25,7 @@ eOperandType Operand::getType() const {
 const IOperand *Operand::operator+(IOperand const &rhs) const {
 	std::stringstream ss;
 	OperandFactory operandFactory;
-	long double resultValue = this->value + rhs.value;
+	long double resultValue = this->getValue() + rhs.getValue();
 	ss << resultValue;
 	std::string result = ss.str();
 	if (rhs.getType() > this->type)
@@ -36,7 +36,7 @@ const IOperand *Operand::operator+(IOperand const &rhs) const {
 const IOperand *Operand::operator-(IOperand const &rhs) const {
 	std::stringstream ss;
 	OperandFactory operandFactory;
-	long double resultValue = this->value - rhs.value;
+	long double resultValue = this->getValue() - rhs.getValue();
 	ss << resultValue;
 	std::string result = ss.str();
 	if (rhs.getType() > this->type)
@@ -47,7 +47,7 @@ const IOperand *Operand::operator-(IOperand const &rhs) const {
 const IOperand *Operand::operator*(IOperand const &rhs) const {
 	std::stringstream ss;
 	OperandFactory operandFactory;
-	long double resultValue = this->value * rhs.value;
+	long double resultValue = this->getValue() * rhs.getValue();
 	ss << resultValue;
 	std::string result = ss.str();
 	if (rhs.getType() > this->type)
@@ -58,7 +58,7 @@ const IOperand *Operand::operator*(IOperand const &rhs) const {
 const IOperand *Operand::operator/(IOperand const &rhs) const {
 	std::stringstream ss;
 	OperandFactory operandFactory;
-	long double resultValue = fmod(this->value, rhs.value);
+	long double resultValue = fmod(this->getValue(), rhs.getValue());
 	ss << resultValue;
 	std::string result = ss.str();
 	if (rhs.getType() > this->type)
@@ -67,7 +67,7 @@ const IOperand *Operand::operator/(IOperand const &rhs) const {
 }
 
 const IOperand *Operand::operator%(IOperand const &rhs) const {
-	printf("%f", rhs.value);
+	printf("%f", rhs.getValue());
 	return nullptr;
 }
 

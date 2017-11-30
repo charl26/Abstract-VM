@@ -41,7 +41,7 @@ IOperand const *OperandFactory::createInt8(std::string const &value) const {
 	if (testValue < INT8_MIN) {
 		throw VMExceptions("ERROR: The Value has Underflow an INT8");
 	}
-	return new Operand(value, INT8);
+	return new Operand(0, value, INT8);
 }
 
 IOperand const *OperandFactory::createInt16(std::string const &value) const {
@@ -57,7 +57,7 @@ IOperand const *OperandFactory::createInt16(std::string const &value) const {
 	if (testValue < INT16_MIN) {
 		throw VMExceptions("ERROR: The Value has Underflow an INT16");
 	}
-	return new Operand(value, INT16);
+	return new Operand(0, value, INT16);
 }
 
 IOperand const *OperandFactory::createInt32(std::string const &value) const {
@@ -73,7 +73,7 @@ IOperand const *OperandFactory::createInt32(std::string const &value) const {
 	if (testValue < INT32_MIN) {
 		throw VMExceptions("ERROR: The Value has Underflow an INT32");
 	}
-	return new Operand(value, INT32);
+	return new Operand(0, value, INT32);
 }
 
 IOperand const *OperandFactory::createFloat(std::string const &value) const {
@@ -89,7 +89,7 @@ IOperand const *OperandFactory::createFloat(std::string const &value) const {
 	if (testValue < std::numeric_limits<float>::min()) {
 		throw VMExceptions("ERROR: The Value has Underflow an float");
 	}
-	return new Operand(value, FLOAT);
+	return new Operand(0, value, FLOAT);
 }
 
 IOperand const *OperandFactory::createDouble(std::string const &value) const {
@@ -105,5 +105,5 @@ IOperand const *OperandFactory::createDouble(std::string const &value) const {
 	if (testValue < std::numeric_limits<double>::min()) {
 		throw VMExceptions("ERROR: The Value has Underflow an double");
 	}
-	return new Operand(value, DOUBLE);
+	return new Operand(0, value, DOUBLE);
 }

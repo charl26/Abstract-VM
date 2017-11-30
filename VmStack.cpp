@@ -18,7 +18,7 @@ void VmStack::add() {
 	value[1] = stack.back();
 	stack.pop_back();
 	long double newValue;
-	newValue = value[0]->value + value[1]->value;
+	newValue = value[0]->getValue() + value[1]->getValue();
 	OperandFactory factory;
 	std::stringstream ss;
 	ss << newValue;
@@ -39,7 +39,7 @@ void VmStack::sub() {
 	value[1] = stack.back();
 	stack.pop_back();
 	long double newValue;
-	newValue = value[0]->value - value[1]->value;
+	newValue = value[0]->getValue() - value[1]->getValue();
 	OperandFactory factory;
 	std::stringstream ss;
 	ss << newValue;
@@ -60,10 +60,10 @@ void VmStack::div() {
 	value[1] = stack.back();
 	stack.pop_back();
 	long double newValue;
-	if (value[0]->value  == 0 | value[1]->value == 0) {
+	if (value[0]->getValue()  == 0 | value[1]->getValue() == 0) {
 		throw VMExceptions("ERROR: Can not divide by 0");
 	}
-	newValue = value[0]->value / value[1]->value;
+	newValue = value[0]->getValue() / value[1]->getValue();
 	OperandFactory factory;
 	std::stringstream ss;
 	ss << newValue;
@@ -85,7 +85,7 @@ void VmStack::mul() {
 	value[1] = stack.back();
 	stack.pop_back();
 	long double newValue;
-	newValue = value[0]->value * value[1]->value;
+	newValue = value[0]->getValue() * value[1]->getValue();
 	OperandFactory factory;
 	std::stringstream ss;
 	ss << newValue;
@@ -106,10 +106,10 @@ void VmStack::mod() {
 	value[1] = stack.back();
 	stack.pop_back();
 	long double newValue;
-	if (value[0]->value  == 0 | value[1]->value == 0) {
+	if (value[0]->getValue()  == 0 | value[1]->getValue() == 0) {
 		throw VMExceptions("ERROR: Can not divide by 0");
 	}
-	newValue = std::fmodl(value[0]->value, value[1]->value);
+	newValue = std::fmodl(value[0]->getValue(), value[1]->getValue());
 	OperandFactory factory;
 	std::stringstream ss;
 	ss << newValue;
@@ -132,7 +132,7 @@ void VmStack::dump() {
 		throw VMExceptions("ERROR: DUMP the Stack is empty");
 	}
 	for (auto size = static_cast<int>(stack.size()); size > 0; size--) {
-		std::cout << stack[size -1]->value << std::endl;
+		std::cout << stack[size -1]->getValue() << std::endl;
 	}
 
 }
@@ -144,7 +144,7 @@ void VmStack::print() {
 	if (stack.back()->getType() > INT8) {
 		throw VMExceptions("ERROR: not of int8");
 	}
-	std::cout << static_cast<char>(stack.back()->value) << std::endl;
+	std::cout << static_cast<char>(stack.back()->getValue()) << std::endl;
 }
 
 void VmStack::exit() {

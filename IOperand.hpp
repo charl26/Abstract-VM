@@ -11,8 +11,12 @@
 enum eOperandType{INT8, INT16, INT32, FLOAT, DOUBLE};
 
 class IOperand {
+protected:
+	double value;
 public:
-	double value{};
+	explicit IOperand(double value);
+	IOperand(IOperand &rhs);
+	IOperand& operator=(const IOperand &rhs);
 	virtual int getPrecision() const = 0; // Precision of the type of the instance
 	virtual eOperandType getType() const = 0; // Type of the instance
 	virtual IOperand const * operator+( IOperand const & rhs ) const = 0; // Sum
@@ -22,6 +26,8 @@ public:
 	virtual IOperand const * operator%( IOperand const & rhs ) const = 0; // Modulo
 	virtual std::string const & toString() const = 0; // String representation of the instance
 	virtual ~IOperand() = default;
+
+	virtual double getValue() const;
 };
 
 

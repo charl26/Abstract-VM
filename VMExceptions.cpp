@@ -14,4 +14,13 @@ char const *VMExceptions::what() const throw()  {
 	return std::exception::what();
 }
 
+
+void VMExceptions::operator=(const VMExceptions &rhs) {
+	message = rhs.message;
+}
+
+VMExceptions::VMExceptions(const VMExceptions &vmExceptions) {
+	message = vmExceptions.message;
+}
+
 VMExceptions::~VMExceptions() = default;

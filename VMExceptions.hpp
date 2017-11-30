@@ -16,9 +16,14 @@ private:
 public:
 	explicit VMExceptions (char const*message) throw();
 
+	VMExceptions(const VMExceptions &vmExceptions);
+
 	~VMExceptions() override;
 
 	char const* what() const throw() override;
+
+	void operator=(const VMExceptions &rhs);
+
 };
 
 

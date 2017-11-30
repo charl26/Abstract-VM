@@ -13,7 +13,7 @@ private:
 	eOperandType type;
 	std::string stringValue;
 public:
-	Operand(const std::string &value, eOperandType type);
+	Operand(double value1, const std::string &value, eOperandType type);
 
 	int getPrecision() const override;
 
@@ -31,7 +31,7 @@ public:
 
 	const std::string &toString() const override;
 
-	double getValue() const;
+	double getValue() const override;
 };
 
 
