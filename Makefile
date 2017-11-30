@@ -4,7 +4,8 @@ SRC			=	main.cpp            \
 				Operand.cpp         \
 				OperandFactory.cpp  \
 				VmStack.cpp         \
-				VMExceptions.cpp
+				VMExceptions.cpp    \
+				IOperand.cpp
 
 OBJ         =   $(SRCS:.cpp=.o)
 
